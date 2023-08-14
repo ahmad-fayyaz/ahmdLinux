@@ -1,0 +1,13 @@
+@font-face {
+    font-family: MBitmapSquare;
+    src: url(MBitmapSquare_HK_Light.ttf);
+  }
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+h1 {
+    font-family: MBitmapSquare;
+}
