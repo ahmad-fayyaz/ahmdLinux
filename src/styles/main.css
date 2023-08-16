@@ -17,11 +17,11 @@ body {
 h1 {
   color: #fff;
   font-family: header_font;
-  font-size: 10rem;
+  font-size: 12vw;
   font-style: normal;
   font-weight: 400;
   margin: 0;
-  text-align: justify;
+  text-align: center;
 }
 
 .title {
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 400;
   margin: 0;
@@ -55,6 +55,8 @@ h2 {
   margin-top: 2vh;
   border: 2px solid #fff;
   height: 55vh;
+  margin-left: 2.77vw;
+  margin-right: 2.77vw;
 }
 
 .bottom-nav {
@@ -87,4 +89,8 @@ h2 {
 
 .label {
   font-size: 2rem;
+}
+
+.tag-line {
+  margin-left: 2.77vw;
 }
