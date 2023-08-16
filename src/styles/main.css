@@ -1,15 +1,90 @@
-
-body {
-    background-color: black;
-    color: #fff;
+@font-face {
+  font-family: header_font;
+  src: url(Micro.woff);
 }
 
+@font-face {
+  font-family: tagline_font;
+  src: url(MBitmapSquare_HK_Light.ttf);
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: tagline_font;
+}
 
 h1 {
-    color: #FFF;
-font-family: Micro;
-font-size: 180px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: header_font;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  text-align: justify;
+}
+
+.title {
+  text-align: justify;
+}
+
+.title:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  padding: 5vh 1%;
+}
+
+.content {
+  margin-top: 2vh;
+  border: 2px solid #fff;
+  height: 55vh;
+}
+
+.bottom-nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.col-3 {
+  padding-right: 12px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  background: #fff;
+  padding: 10px;
+  color: #000;
+  font-family: tagline_font;
+  margin-right: 4px;
+  font-size: 2rem;
+}
+
+.label {
+  font-size: 2rem;
 }
